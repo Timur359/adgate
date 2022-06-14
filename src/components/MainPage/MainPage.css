@@ -1,0 +1,33 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+
+.main-page__body {
+  width: 600px;
+  height: 400px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 7px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.main-page__body_avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.main-page__body_title {
+  font-size: 30px;
+}
+
+.main-page__body_btn {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}

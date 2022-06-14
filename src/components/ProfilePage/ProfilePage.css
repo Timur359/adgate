@@ -1,0 +1,23 @@
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.profile-page__title {
+  margin-bottom: 80px;
+}
+
+.profile-page__info-box {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  justify-content: space-around;
+  width: 96%;
+  background-color: white;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+  box-shadow: -1px 4px 10px 9px rgba(85, 93, 99, 0.41);
+  background-color: black;
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  top: 10px;
+  border-radius: 5px;
+}
+
+.head__link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-family: 'Gentium Plus', sans-serif;
+  font-size: 20px;
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
